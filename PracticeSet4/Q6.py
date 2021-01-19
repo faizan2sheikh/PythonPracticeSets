@@ -1,0 +1,5 @@
+print([x + 1 for x in [2, 4, 6, 8]])
+print([10*x for x in range(5, 10)])
+print([x for x in range(10, 21) if x % 3 == 0])
+print([(x, y) for x in range(3) for y in range(4)])
+print([(x, y) for x in range(3) for y in range(4) if (x + y) % 2 == 0])
