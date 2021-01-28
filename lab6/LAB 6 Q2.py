@@ -1,0 +1,12 @@
+l=['this','is','simple','computer','programming','using','python']
+l.pop(2)
+print(l[:4])
+l[2:2]=['simple']
+print(l[:3])
+l[2:4]=[]
+print(l)
+print(l[-3:])
+l[2:2]=['computer']
+l=l[1::-1]
+l.extend(['computer','programming'])
+print(l)
