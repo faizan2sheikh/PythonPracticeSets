@@ -9,7 +9,7 @@ class Employee:
         self.bas=BasicSalary(basic)
         self.annualBonus=ann_bon
     def annualNetSalary(self):
-        return self.bas.annualBasicSalary()+self.annualBonus
+        print(self.bas.annualBasicSalary()+self.annualBonus)
 
 e1=Employee(50000,35000)
-print(e1.annualNetSalary)
+e1.annualNetSalary()
